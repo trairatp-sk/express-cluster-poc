@@ -34,5 +34,4 @@ You can try with any load testing tool. In the guide, we will use https://github
     bombardier -c 125 -n 10000000 --print=i,r,p http://localhost:8000
    ```
 
-4. Observe process via `Activity Monitor`
-# express-cluster-poc
+4. Observe process via `Activity Monitor`. There should be multiple node processes consuming cpu which mean multiple core are being utilized.
